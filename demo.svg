@@ -1,0 +1,188 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1260" viewBox="0 0 1600 1260">
+<title>Robot Learning Lab: measured synthetic navigation experiment</title>
+<desc>Q-learning, BFS replanning and random policies on one fixed grid, with held-out action noise.</desc>
+<rect width="1600" height="1260" fill="#f7f9fc"/>
+<text x="64" y="70.12" fill="#15273b" font-size="42" font-family="Arial,sans-serif" font-weight="700">Robot Learning Lab</text>
+<text x="64" y="112.64" fill="#586d83" font-size="24" font-family="Arial,sans-serif" font-weight="400">Tabular Q-learning  |  finite horizon  |  stochastic action slip</text>
+<polyline points="64.00,141.00 1536.00,141.00" fill="none" stroke="#dbe3ed" stroke-width="2" stroke-linejoin="round"/>
+<text x="64" y="198.36" fill="#15273b" font-size="26" font-family="Arial,sans-serif" font-weight="700">One fixed map: first held-out episode</text>
+<text x="64" y="230.2" fill="#586d83" font-size="20" font-family="Arial,sans-serif" font-weight="400">10% slip; environment seed 100000</text>
+<rect x="64" y="259" width="52" height="52" fill="#ffffff" stroke="#dbe3ed"/>
+<rect x="116" y="259" width="52" height="52" fill="#ffffff" stroke="#dbe3ed"/>
+<rect x="168" y="259" width="52" height="52" fill="#ffffff" stroke="#dbe3ed"/>
+<rect x="220" y="259" width="52" height="52" fill="#334b60" stroke="#dbe3ed"/>
+<rect x="272" y="259" width="52" height="52" fill="#ffffff" stroke="#dbe3ed"/>
+<rect x="324" y="259" width="52" height="52" fill="#ffffff" stroke="#dbe3ed"/>
+<rect x="376" y="259" width="52" height="52" fill="#ffffff" stroke="#dbe3ed"/>
+<rect x="428" y="259" width="52" height="52" fill="#ffffff" stroke="#dbe3ed"/>
+<rect x="480" y="259" width="52" height="52" fill="#ffffff" stroke="#dbe3ed"/>
+<rect x="64" y="311" width="52" height="52" fill="#ffffff" stroke="#dbe3ed"/>
+<rect x="116" y="311" width="52" height="52" fill="#ffffff" stroke="#dbe3ed"/>
+<rect x="168" y="311" width="52" height="52" fill="#ffffff" stroke="#dbe3ed"/>
+<rect x="220" y="311" width="52" height="52" fill="#334b60" stroke="#dbe3ed"/>
+<rect x="272" y="311" width="52" height="52" fill="#ffffff" stroke="#dbe3ed"/>
+<rect x="324" y="311" width="52" height="52" fill="#334b60" stroke="#dbe3ed"/>
+<rect x="376" y="311" width="52" height="52" fill="#ffffff" stroke="#dbe3ed"/>
+<rect x="428" y="311" width="52" height="52" fill="#ffffff" stroke="#dbe3ed"/>
+<rect x="480" y="311" width="52" height="52" fill="#ffffff" stroke="#dbe3ed"/>
+<rect x="64" y="363" width="52" height="52" fill="#ffffff" stroke="#dbe3ed"/>
+<rect x="116" y="363" width="52" height="52" fill="#ffffff" stroke="#dbe3ed"/>
+<rect x="168" y="363" width="52" height="52" fill="#ffffff" stroke="#dbe3ed"/>
+<rect x="220" y="363" width="52" height="52" fill="#ffffff" stroke="#dbe3ed"/>
+<rect x="272" y="363" width="52" height="52" fill="#ffffff" stroke="#dbe3ed"/>
+<rect x="324" y="363" width="52" height="52" fill="#334b60" stroke="#dbe3ed"/>
+<rect x="376" y="363" width="52" height="52" fill="#ffffff" stroke="#dbe3ed"/>
+<rect x="428" y="363" width="52" height="52" fill="#ffffff" stroke="#dbe3ed"/>
+<rect x="480" y="363" width="52" height="52" fill="#ffffff" stroke="#dbe3ed"/>
+<rect x="64" y="415" width="52" height="52" fill="#ffffff" stroke="#dbe3ed"/>
+<rect x="116" y="415" width="52" height="52" fill="#ffffff" stroke="#dbe3ed"/>
+<rect x="168" y="415" width="52" height="52" fill="#ffffff" stroke="#dbe3ed"/>
+<rect x="220" y="415" width="52" height="52" fill="#334b60" stroke="#dbe3ed"/>
+<rect x="272" y="415" width="52" height="52" fill="#ffffff" stroke="#dbe3ed"/>
+<rect x="324" y="415" width="52" height="52" fill="#ffffff" stroke="#dbe3ed"/>
+<rect x="376" y="415" width="52" height="52" fill="#ffffff" stroke="#dbe3ed"/>
+<rect x="428" y="415" width="52" height="52" fill="#ffffff" stroke="#dbe3ed"/>
+<rect x="480" y="415" width="52" height="52" fill="#ffffff" stroke="#dbe3ed"/>
+<rect x="64" y="467" width="52" height="52" fill="#ffffff" stroke="#dbe3ed"/>
+<rect x="116" y="467" width="52" height="52" fill="#ffffff" stroke="#dbe3ed"/>
+<rect x="168" y="467" width="52" height="52" fill="#ffffff" stroke="#dbe3ed"/>
+<rect x="220" y="467" width="52" height="52" fill="#334b60" stroke="#dbe3ed"/>
+<rect x="272" y="467" width="52" height="52" fill="#334b60" stroke="#dbe3ed"/>
+<rect x="324" y="467" width="52" height="52" fill="#334b60" stroke="#dbe3ed"/>
+<rect x="376" y="467" width="52" height="52" fill="#ffffff" stroke="#dbe3ed"/>
+<rect x="428" y="467" width="52" height="52" fill="#334b60" stroke="#dbe3ed"/>
+<rect x="480" y="467" width="52" height="52" fill="#ffffff" stroke="#dbe3ed"/>
+<rect x="64" y="519" width="52" height="52" fill="#ffffff" stroke="#dbe3ed"/>
+<rect x="116" y="519" width="52" height="52" fill="#ffffff" stroke="#dbe3ed"/>
+<rect x="168" y="519" width="52" height="52" fill="#ffffff" stroke="#dbe3ed"/>
+<rect x="220" y="519" width="52" height="52" fill="#ffffff" stroke="#dbe3ed"/>
+<rect x="272" y="519" width="52" height="52" fill="#ffffff" stroke="#dbe3ed"/>
+<rect x="324" y="519" width="52" height="52" fill="#ffffff" stroke="#dbe3ed"/>
+<rect x="376" y="519" width="52" height="52" fill="#ffffff" stroke="#dbe3ed"/>
+<rect x="428" y="519" width="52" height="52" fill="#ffffff" stroke="#dbe3ed"/>
+<rect x="480" y="519" width="52" height="52" fill="#ffffff" stroke="#dbe3ed"/>
+<rect x="64" y="571" width="52" height="52" fill="#ffffff" stroke="#dbe3ed"/>
+<rect x="116" y="571" width="52" height="52" fill="#ffffff" stroke="#dbe3ed"/>
+<rect x="168" y="571" width="52" height="52" fill="#ffffff" stroke="#dbe3ed"/>
+<rect x="220" y="571" width="52" height="52" fill="#ffffff" stroke="#dbe3ed"/>
+<rect x="272" y="571" width="52" height="52" fill="#ffffff" stroke="#dbe3ed"/>
+<rect x="324" y="571" width="52" height="52" fill="#ffffff" stroke="#dbe3ed"/>
+<rect x="376" y="571" width="52" height="52" fill="#ffffff" stroke="#dbe3ed"/>
+<rect x="428" y="571" width="52" height="52" fill="#ffffff" stroke="#dbe3ed"/>
+<rect x="480" y="571" width="52" height="52" fill="#ffffff" stroke="#dbe3ed"/>
+<polyline points="90.00,285.00 142.00,285.00 194.00,285.00 194.00,337.00 194.00,389.00 194.00,337.00 194.00,389.00 246.00,389.00 298.00,389.00 298.00,441.00 350.00,441.00 402.00,441.00 454.00,441.00 506.00,441.00 506.00,493.00 506.00,545.00 506.00,597.00" fill="none" stroke="#c66a27" stroke-width="8" stroke-linejoin="round"/>
+<polyline points="90.00,285.00 142.00,285.00 142.00,337.00 142.00,389.00 142.00,441.00 142.00,493.00 142.00,441.00 90.00,441.00 142.00,441.00 142.00,493.00 194.00,493.00 142.00,493.00 142.00,545.00 194.00,545.00 246.00,545.00 246.00,597.00 298.00,597.00 350.00,597.00 350.00,545.00 350.00,597.00 350.00,545.00 350.00,597.00 402.00,597.00 454.00,597.00 506.00,597.00" fill="none" stroke="#007e83" stroke-width="4" stroke-linejoin="round"/>
+<circle cx="90.0" cy="285.0" r="14" fill="#15273b"/>
+<text x="83.0" y="291.2" fill="#ffffff" font-size="20" font-family="Arial,sans-serif" font-weight="700">S</text>
+<circle cx="506.0" cy="597.0" r="14" fill="#15273b"/>
+<text x="499.0" y="603.2" fill="#ffffff" font-size="20" font-family="Arial,sans-serif" font-weight="700">G</text>
+<polyline points="64.00,655.00 102.00,655.00" fill="none" stroke="#007e83" stroke-width="4" stroke-linejoin="round"/>
+<text x="115" y="660.2" fill="#586d83" font-size="20" font-family="Arial,sans-serif" font-weight="400">Frozen greedy Q</text>
+<polyline points="310.00,655.00 348.00,655.00" fill="none" stroke="#c66a27" stroke-width="8" stroke-linejoin="round"/>
+<text x="361" y="660.2" fill="#586d83" font-size="20" font-family="Arial,sans-serif" font-weight="400">BFS replan</text>
+<text x="64" y="706.34" fill="#586d83" font-size="19" font-family="Arial,sans-serif" font-weight="400">A blocked move stays in its current cell.</text>
+<text x="64" y="733.34" fill="#586d83" font-size="19" font-family="Arial,sans-serif" font-weight="400">No sensors, physics or robot hardware.</text>
+<text x="650" y="198.36" fill="#15273b" font-size="26" font-family="Arial,sans-serif" font-weight="700">Learning from interaction</text>
+<text x="650" y="230.2" fill="#586d83" font-size="20" font-family="Arial,sans-serif" font-weight="400">Exploratory training return: means of 100 episodes</text>
+<polyline points="710.00,572.00 1500.00,572.00" fill="none" stroke="#dbe3ed" stroke-width="1" stroke-linejoin="round"/>
+<text x="655" y="576.62" fill="#586d83" font-size="17" font-family="Arial,sans-serif" font-weight="400">-120</text>
+<polyline points="710.00,529.14 1500.00,529.14" fill="none" stroke="#dbe3ed" stroke-width="1" stroke-linejoin="round"/>
+<text x="655" y="533.7628571428571" fill="#586d83" font-size="17" font-family="Arial,sans-serif" font-weight="400">-100</text>
+<polyline points="710.00,486.29 1500.00,486.29" fill="none" stroke="#dbe3ed" stroke-width="1" stroke-linejoin="round"/>
+<text x="655" y="490.9057142857143" fill="#586d83" font-size="17" font-family="Arial,sans-serif" font-weight="400">-80</text>
+<polyline points="710.00,443.43 1500.00,443.43" fill="none" stroke="#dbe3ed" stroke-width="1" stroke-linejoin="round"/>
+<text x="655" y="448.04857142857145" fill="#586d83" font-size="17" font-family="Arial,sans-serif" font-weight="400">-60</text>
+<polyline points="710.00,400.57 1500.00,400.57" fill="none" stroke="#dbe3ed" stroke-width="1" stroke-linejoin="round"/>
+<text x="655" y="405.19142857142856" fill="#586d83" font-size="17" font-family="Arial,sans-serif" font-weight="400">-40</text>
+<polyline points="710.00,357.71 1500.00,357.71" fill="none" stroke="#dbe3ed" stroke-width="1" stroke-linejoin="round"/>
+<text x="655" y="362.3342857142857" fill="#586d83" font-size="17" font-family="Arial,sans-serif" font-weight="400">-20</text>
+<polyline points="710.00,314.86 1500.00,314.86" fill="none" stroke="#dbe3ed" stroke-width="1" stroke-linejoin="round"/>
+<text x="655" y="319.4771428571429" fill="#586d83" font-size="17" font-family="Arial,sans-serif" font-weight="400">0</text>
+<polyline points="710.00,272.00 1500.00,272.00" fill="none" stroke="#dbe3ed" stroke-width="1" stroke-linejoin="round"/>
+<text x="655" y="276.62" fill="#586d83" font-size="17" font-family="Arial,sans-serif" font-weight="400">20</text>
+<polyline points="716.58,529.44 723.17,520.04 729.75,512.81 736.33,507.11 742.92,513.03 749.50,508.25 756.08,505.89 762.67,506.30 769.25,502.76 775.83,498.86 782.42,511.08 789.00,494.66 795.58,490.68 802.17,487.36 808.75,488.99 815.33,483.44 821.92,477.65 828.50,483.31 835.08,482.34 841.67,482.47 848.25,471.14 854.83,470.54 861.42,469.36 868.00,460.55 874.58,456.39 881.17,466.87 887.75,463.42 894.33,453.95 900.92,437.71 907.50,440.04 914.08,438.56 920.67,443.79 927.25,431.47 933.83,424.57 940.42,413.24 947.00,413.75 953.58,414.09 960.17,414.50 966.75,396.95 973.33,407.47 979.92,410.86 986.50,396.48 993.08,394.29 999.67,386.41 1006.25,386.77 1012.83,379.64 1019.42,382.68 1026.00,382.10 1032.58,375.91 1039.17,370.94 1045.75,369.54 1052.33,373.51 1058.92,370.70 1065.50,367.81 1072.08,362.24 1078.67,360.05 1085.25,363.65 1091.83,355.59 1098.42,351.44 1105.00,359.69 1111.58,353.09 1118.17,349.91 1124.75,347.56 1131.33,351.24 1137.92,346.89 1144.50,351.80 1151.08,342.56 1157.67,344.45 1164.25,342.84 1170.83,338.30 1177.42,340.25 1184.00,339.84 1190.58,335.43 1197.17,336.09 1203.75,334.08 1210.33,335.75 1216.92,333.65 1223.50,334.87 1230.08,334.38 1236.67,330.63 1243.25,329.90 1249.83,328.06 1256.42,328.59 1263.00,329.81 1269.58,327.56 1276.17,328.40 1282.75,324.74 1289.33,324.84 1295.92,325.57 1302.50,323.77 1309.08,322.10 1315.67,325.42 1322.25,324.22 1328.83,324.29 1335.42,323.36 1342.00,325.36 1348.58,326.06 1355.17,325.76 1361.75,324.69 1368.33,326.92 1374.92,324.63 1381.50,324.61 1388.08,324.29 1394.67,324.11 1401.25,324.89 1407.83,324.01 1414.42,324.46 1421.00,323.58 1427.58,323.77 1434.17,323.66 1440.75,324.71 1447.33,322.66 1453.92,323.60 1460.50,322.91 1467.08,326.11 1473.67,322.27 1480.25,325.12 1486.83,325.34 1493.42,324.26 1500.00,323.81" fill="none" stroke="#007e83" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="716.58,527.77 723.17,513.26 729.75,515.28 736.33,513.50 742.92,504.61 749.50,506.54 756.08,503.47 762.67,510.99 769.25,507.71 775.83,509.47 782.42,507.89 789.00,494.54 795.58,489.14 802.17,502.64 808.75,486.89 815.33,495.05 821.92,485.51 828.50,486.80 835.08,484.59 841.67,484.44 848.25,478.06 854.83,478.74 861.42,469.53 868.00,469.94 874.58,465.01 881.17,469.66 887.75,465.95 894.33,448.55 900.92,452.24 907.50,438.84 914.08,427.14 920.67,436.27 927.25,435.09 933.83,423.16 940.42,423.82 947.00,408.46 953.58,422.49 960.17,401.32 966.75,414.71 973.33,405.80 979.92,407.04 986.50,402.44 993.08,391.49 999.67,393.50 1006.25,390.63 1012.83,384.89 1019.42,378.78 1026.00,376.16 1032.58,370.40 1039.17,376.42 1045.75,372.03 1052.33,364.38 1058.92,369.41 1065.50,366.48 1072.08,361.12 1078.67,360.37 1085.25,352.38 1091.83,361.91 1098.42,357.48 1105.00,353.15 1111.58,355.91 1118.17,347.41 1124.75,348.48 1131.33,348.52 1137.92,348.86 1144.50,346.74 1151.08,343.96 1157.67,343.98 1164.25,341.60 1170.83,342.52 1177.42,342.11 1184.00,339.74 1190.58,338.51 1197.17,335.99 1203.75,335.81 1210.33,332.47 1216.92,331.94 1223.50,335.02 1230.08,332.30 1236.67,335.04 1243.25,329.41 1249.83,329.15 1256.42,329.30 1263.00,330.63 1269.58,326.36 1276.17,328.04 1282.75,323.99 1289.33,321.93 1295.92,323.13 1302.50,324.20 1309.08,325.06 1315.67,320.90 1322.25,323.06 1328.83,323.64 1335.42,320.47 1342.00,322.36 1348.58,322.91 1355.17,321.80 1361.75,320.49 1368.33,321.05 1374.92,321.80 1381.50,322.55 1388.08,321.52 1394.67,321.39 1401.25,320.30 1407.83,321.05 1414.42,324.35 1421.00,323.99 1427.58,322.12 1434.17,322.57 1440.75,323.71 1447.33,323.04 1453.92,322.83 1460.50,325.14 1467.08,324.99 1473.67,323.54 1480.25,323.94 1486.83,322.08 1493.42,321.71 1500.00,320.49" fill="none" stroke="#cf892b" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="716.58,534.54 723.17,518.00 729.75,512.28 736.33,515.06 742.92,512.69 749.50,509.00 756.08,510.39 762.67,504.80 769.25,503.51 775.83,498.50 782.42,511.01 789.00,501.93 795.58,491.66 802.17,496.57 808.75,494.36 815.33,493.16 821.92,485.77 828.50,482.81 835.08,479.32 841.67,475.94 848.25,464.60 854.83,475.76 861.42,474.69 868.00,470.02 874.58,465.80 881.17,455.77 887.75,449.66 894.33,451.98 900.92,449.34 907.50,452.60 914.08,439.06 920.67,442.36 927.25,441.03 933.83,435.33 940.42,434.56 947.00,419.24 953.58,426.11 960.17,418.36 966.75,408.41 973.33,405.52 979.92,392.36 986.50,404.32 993.08,387.48 999.67,385.61 1006.25,390.86 1012.83,384.26 1019.42,379.27 1026.00,372.61 1032.58,380.49 1039.17,369.52 1045.75,378.95 1052.33,366.54 1058.92,364.21 1065.50,360.48 1072.08,362.00 1078.67,360.35 1085.25,358.57 1091.83,353.99 1098.42,349.04 1105.00,352.38 1111.58,349.87 1118.17,349.72 1124.75,348.35 1131.33,348.93 1137.92,349.44 1144.50,342.48 1151.08,341.04 1157.67,341.75 1164.25,340.34 1170.83,341.58 1177.42,343.57 1184.00,337.55 1190.58,338.92 1197.17,337.76 1203.75,334.23 1210.33,334.61 1216.92,332.58 1223.50,334.57 1230.08,334.64 1236.67,333.80 1243.25,327.89 1249.83,330.71 1256.42,326.77 1263.00,327.39 1269.58,328.23 1276.17,326.13 1282.75,324.11 1289.33,324.50 1295.92,324.03 1302.50,322.68 1309.08,323.15 1315.67,322.91 1322.25,321.52 1328.83,322.72 1335.42,322.64 1342.00,320.26 1348.58,321.14 1355.17,321.26 1361.75,322.57 1368.33,320.43 1374.92,321.01 1381.50,320.47 1388.08,320.62 1394.67,320.41 1401.25,321.16 1407.83,322.12 1414.42,321.24 1421.00,325.29 1427.58,324.67 1434.17,324.78 1440.75,320.47 1447.33,320.17 1453.92,321.50 1460.50,321.14 1467.08,320.02 1473.67,319.89 1480.25,320.88 1486.83,320.00 1493.42,322.42 1500.00,319.25" fill="none" stroke="#7463b5" stroke-width="3" stroke-linejoin="round"/>
+<text x="710" y="602.48" fill="#586d83" font-size="18" font-family="Arial,sans-serif" font-weight="400">0</text>
+<text x="1075.0" y="602.48" fill="#586d83" font-size="18" font-family="Arial,sans-serif" font-weight="400">6000</text>
+<text x="1435" y="602.48" fill="#586d83" font-size="18" font-family="Arial,sans-serif" font-weight="400">12000</text>
+<text x="1010" y="632.48" fill="#586d83" font-size="18" font-family="Arial,sans-serif" font-weight="400">training episodes</text>
+<polyline points="710.00,666.00 744.00,666.00" fill="none" stroke="#007e83" stroke-width="3" stroke-linejoin="round"/>
+<text x="755" y="669.48" fill="#586d83" font-size="18" font-family="Arial,sans-serif" font-weight="400">training seed 7</text>
+<polyline points="955.00,666.00 989.00,666.00" fill="none" stroke="#cf892b" stroke-width="3" stroke-linejoin="round"/>
+<text x="1000" y="669.48" fill="#586d83" font-size="18" font-family="Arial,sans-serif" font-weight="400">training seed 19</text>
+<polyline points="1200.00,666.00 1234.00,666.00" fill="none" stroke="#7463b5" stroke-width="3" stroke-linejoin="round"/>
+<text x="1245" y="669.48" fill="#586d83" font-size="18" font-family="Arial,sans-serif" font-weight="400">training seed 43</text>
+<text x="650" y="719.2" fill="#586d83" font-size="20" font-family="Arial,sans-serif" font-weight="400">The primary model is seed 7, chosen in advance.</text>
+<text x="650" y="748.2" fill="#586d83" font-size="20" font-family="Arial,sans-serif" font-weight="400">No evaluation episode updates Q or uses exploration.</text>
+<text x="64" y="810.5" fill="#15273b" font-size="25" font-family="Arial,sans-serif" font-weight="700">Measured evaluation: 100 held-out noise seeds per policy and condition</text>
+<rect x="64" y="835" width="1472" height="46" fill="#e6edf5" stroke="none"/>
+<text x="80" y="864.34" fill="#15273b" font-size="19" font-family="Arial,sans-serif" font-weight="700">Slip / policy</text>
+<text x="430" y="864.34" fill="#15273b" font-size="19" font-family="Arial,sans-serif" font-weight="700">Goal rate</text>
+<text x="635" y="864.34" fill="#15273b" font-size="19" font-family="Arial,sans-serif" font-weight="700">Mean return</text>
+<text x="870" y="864.34" fill="#15273b" font-size="19" font-family="Arial,sans-serif" font-weight="700">Blocked moves</text>
+<text x="1120" y="864.34" fill="#15273b" font-size="19" font-family="Arial,sans-serif" font-weight="700">Mean steps</text>
+<text x="1375" y="864.34" fill="#15273b" font-size="19" font-family="Arial,sans-serif" font-weight="700">Timeouts</text>
+<rect x="64" y="883" width="1472" height="30" fill="#ffffff" stroke="none"/>
+<text x="80" y="905.34" fill="#007e83" font-size="19" font-family="Arial,sans-serif" font-weight="400">10% / Q-learning</text>
+<text x="430" y="905.34" fill="#007e83" font-size="19" font-family="Arial,sans-serif" font-weight="400">100/100</text>
+<text x="635" y="905.34" fill="#007e83" font-size="19" font-family="Arial,sans-serif" font-weight="400">-3.36</text>
+<text x="870" y="905.34" fill="#007e83" font-size="19" font-family="Arial,sans-serif" font-weight="400">0.38</text>
+<text x="1120" y="905.34" fill="#007e83" font-size="19" font-family="Arial,sans-serif" font-weight="400">22.84</text>
+<text x="1375" y="905.34" fill="#007e83" font-size="19" font-family="Arial,sans-serif" font-weight="400">0</text>
+<rect x="64" y="913" width="1472" height="30" fill="#ffffff" stroke="none"/>
+<text x="80" y="935.34" fill="#15273b" font-size="19" font-family="Arial,sans-serif" font-weight="400">10% / BFS replan</text>
+<text x="430" y="935.34" fill="#15273b" font-size="19" font-family="Arial,sans-serif" font-weight="400">100/100</text>
+<text x="635" y="935.34" fill="#15273b" font-size="19" font-family="Arial,sans-serif" font-weight="400">1.79</text>
+<text x="870" y="935.34" fill="#15273b" font-size="19" font-family="Arial,sans-serif" font-weight="400">0.81</text>
+<text x="1120" y="935.34" fill="#15273b" font-size="19" font-family="Arial,sans-serif" font-weight="400">15.97</text>
+<text x="1375" y="935.34" fill="#15273b" font-size="19" font-family="Arial,sans-serif" font-weight="400">0</text>
+<rect x="64" y="943" width="1472" height="30" fill="#ffffff" stroke="none"/>
+<text x="80" y="965.34" fill="#15273b" font-size="19" font-family="Arial,sans-serif" font-weight="400">10% / Random</text>
+<text x="430" y="965.34" fill="#15273b" font-size="19" font-family="Arial,sans-serif" font-weight="400">3/100</text>
+<text x="635" y="965.34" fill="#15273b" font-size="19" font-family="Arial,sans-serif" font-weight="400">-96.49</text>
+<text x="870" y="965.34" fill="#15273b" font-size="19" font-family="Arial,sans-serif" font-weight="400">11.84</text>
+<text x="1120" y="965.34" fill="#15273b" font-size="19" font-family="Arial,sans-serif" font-weight="400">49.76</text>
+<text x="1375" y="965.34" fill="#15273b" font-size="19" font-family="Arial,sans-serif" font-weight="400">97</text>
+<text x="80" y="995.34" fill="#007e83" font-size="19" font-family="Arial,sans-serif" font-weight="400">30% / Q-learning</text>
+<text x="430" y="995.34" fill="#007e83" font-size="19" font-family="Arial,sans-serif" font-weight="400">100/100</text>
+<text x="635" y="995.34" fill="#007e83" font-size="19" font-family="Arial,sans-serif" font-weight="400">-12.50</text>
+<text x="870" y="995.34" fill="#007e83" font-size="19" font-family="Arial,sans-serif" font-weight="400">1.56</text>
+<text x="1120" y="995.34" fill="#007e83" font-size="19" font-family="Arial,sans-serif" font-weight="400">27.26</text>
+<text x="1375" y="995.34" fill="#007e83" font-size="19" font-family="Arial,sans-serif" font-weight="400">0</text>
+<text x="80" y="1025.34" fill="#15273b" font-size="19" font-family="Arial,sans-serif" font-weight="400">30% / BFS replan</text>
+<text x="430" y="1025.34" fill="#15273b" font-size="19" font-family="Arial,sans-serif" font-weight="400">100/100</text>
+<text x="635" y="1025.34" fill="#15273b" font-size="19" font-family="Arial,sans-serif" font-weight="400">-14.99</text>
+<text x="870" y="1025.34" fill="#15273b" font-size="19" font-family="Arial,sans-serif" font-weight="400">3.45</text>
+<text x="1120" y="1025.34" fill="#15273b" font-size="19" font-family="Arial,sans-serif" font-weight="400">22.19</text>
+<text x="1375" y="1025.34" fill="#15273b" font-size="19" font-family="Arial,sans-serif" font-weight="400">0</text>
+<text x="80" y="1055.34" fill="#15273b" font-size="19" font-family="Arial,sans-serif" font-weight="400">30% / Random</text>
+<text x="430" y="1055.34" fill="#15273b" font-size="19" font-family="Arial,sans-serif" font-weight="400">1/100</text>
+<text x="635" y="1055.34" fill="#15273b" font-size="19" font-family="Arial,sans-serif" font-weight="400">-97.35</text>
+<text x="870" y="1055.34" fill="#15273b" font-size="19" font-family="Arial,sans-serif" font-weight="400">11.89</text>
+<text x="1120" y="1055.34" fill="#15273b" font-size="19" font-family="Arial,sans-serif" font-weight="400">50.00</text>
+<text x="1375" y="1055.34" fill="#15273b" font-size="19" font-family="Arial,sans-serif" font-weight="400">99</text>
+<rect x="64" y="1063" width="1472" height="30" fill="#ffffff" stroke="none"/>
+<text x="80" y="1085.34" fill="#007e83" font-size="19" font-family="Arial,sans-serif" font-weight="400">50% / Q-learning</text>
+<text x="430" y="1085.34" fill="#007e83" font-size="19" font-family="Arial,sans-serif" font-weight="400">88/100</text>
+<text x="635" y="1085.34" fill="#007e83" font-size="19" font-family="Arial,sans-serif" font-weight="400">-37.88</text>
+<text x="870" y="1085.34" fill="#007e83" font-size="19" font-family="Arial,sans-serif" font-weight="400">4.69</text>
+<text x="1120" y="1085.34" fill="#007e83" font-size="19" font-family="Arial,sans-serif" font-weight="400">37.60</text>
+<text x="1375" y="1085.34" fill="#007e83" font-size="19" font-family="Arial,sans-serif" font-weight="400">12</text>
+<rect x="64" y="1093" width="1472" height="30" fill="#ffffff" stroke="none"/>
+<text x="80" y="1115.34" fill="#15273b" font-size="19" font-family="Arial,sans-serif" font-weight="400">50% / BFS replan</text>
+<text x="430" y="1115.34" fill="#15273b" font-size="19" font-family="Arial,sans-serif" font-weight="400">95/100</text>
+<text x="635" y="1115.34" fill="#15273b" font-size="19" font-family="Arial,sans-serif" font-weight="400">-46.91</text>
+<text x="870" y="1115.34" fill="#15273b" font-size="19" font-family="Arial,sans-serif" font-weight="400">8.24</text>
+<text x="1120" y="1115.34" fill="#15273b" font-size="19" font-family="Arial,sans-serif" font-weight="400">33.90</text>
+<text x="1375" y="1115.34" fill="#15273b" font-size="19" font-family="Arial,sans-serif" font-weight="400">5</text>
+<rect x="64" y="1123" width="1472" height="30" fill="#ffffff" stroke="none"/>
+<text x="80" y="1145.34" fill="#15273b" font-size="19" font-family="Arial,sans-serif" font-weight="400">50% / Random</text>
+<text x="430" y="1145.34" fill="#15273b" font-size="19" font-family="Arial,sans-serif" font-weight="400">2/100</text>
+<text x="635" y="1145.34" fill="#15273b" font-size="19" font-family="Arial,sans-serif" font-weight="400">-98.19</text>
+<text x="870" y="1145.34" fill="#15273b" font-size="19" font-family="Arial,sans-serif" font-weight="400">12.23</text>
+<text x="1120" y="1145.34" fill="#15273b" font-size="19" font-family="Arial,sans-serif" font-weight="400">49.69</text>
+<text x="1375" y="1145.34" fill="#15273b" font-size="19" font-family="Arial,sans-serif" font-weight="400">98</text>
+<text x="64" y="1200.06" fill="#586d83" font-size="21" font-family="Arial,sans-serif" font-weight="400">Fixed-map experiment only. BFS is shortest without slip; it is not an optimal noisy-policy benchmark.</text>
+<text x="64" y="1232.2" fill="#586d83" font-size="20" font-family="Arial,sans-serif" font-weight="400">AI-assisted educational portfolio  |  Full results, uncertainty and training-seed variation: metrics.json</text>
+</svg>
